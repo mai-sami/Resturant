@@ -8,10 +8,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 5rem;
-    margin: 3rem;
+    margin: 4rem;
 }
 .card__blog{
     width: 410px;
-
 background: rgba(16, 20, 24, 0.7);
 }

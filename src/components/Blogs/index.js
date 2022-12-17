@@ -9,7 +9,7 @@ import CardEndSeaction from '../shareComponents/CardEndSeactions/CardEndSeaction
 function Index() {
     return (
         <Contenters>
-            <div className='blogs'>
+            <div className='blogs' id='Blogs'>
                 <SpecialText title={"Blogs"} subTitle={"words from our food lovers"} />
                 <div className='all__card__blog'>
                 <CardEndSeaction title={"Cooking Dining Experience"} name={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin "} image={last} role={true}/>

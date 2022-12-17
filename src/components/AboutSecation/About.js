@@ -6,7 +6,10 @@ import Button from '../shareComponents/BUTTON/Button'
 import AllSecations from '../shareComponents/allSecation'
 function About() {
     return (
-        <ContainerSection>
+        <div id='about'>
+
+       
+        <ContainerSection >
             <AllSecations
                 title={"About Us"}
                 styleTitle={"about__title"}
@@ -22,11 +25,11 @@ function About() {
                     <Button name={"Read more"} />
                 </div>
             </AllSecations>
-
+           
 
 
         </ContainerSection>
-
+        </div>
     )
 }
 

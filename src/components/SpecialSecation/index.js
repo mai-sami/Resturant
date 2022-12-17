@@ -14,7 +14,7 @@ var DataCard = [
 function Index() {
     return (
         <Content>
-      <div className='special'>
+      <div className='special' id='special'>
         <SpecialText title={"Special"} subTitle={"What makes us special"}/>
         <div className='card__content'>
                 {DataCard.map((item) => (

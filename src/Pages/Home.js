@@ -23,7 +23,7 @@ function Home() {
                     <Introduaction />
                 </div>
             </Content>
-            <About />
+            <About  />
 
             <SpecialSecation />
             <Menu />

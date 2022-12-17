@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../../assets/Group 27.png'
 import './header.css'
+import { Link } from 'react-scroll'
+
 function Header() {
     return (
 
@@ -9,19 +11,28 @@ function Header() {
 
             <ul className='header__ul'>
                 <li>
-                    <a className='item' href='/'>Home</a>
+                  <a className='item' href='/'>Home</a>
                 </li>
                 <li>
-                    <a className='item' href='/'> About Us</a>
+                    <Link to="about">
+                        <a className='item' href='/'> About Us</a>
+
+                    </Link>
                 </li>
                 <li>
-                    <a className='item' href='/'>Special</a>
+                    <Link to="special">
+                        <a className='item' href='/'>Special</a>
+                    </Link>
                 </li>
                 <li>
-                    <a className='item' href='/'>Menu</a>
+                    <Link to="Menu">
+                        <a className='item' href='/'>Menu</a>
+                    </Link>
                 </li>
                 <li>
-                    <a className='item' href='/'>Blogs</a>
+                    <Link to="Blogs">
+                        <a className='item' href='/'>Blogs</a>
+                    </Link>
                 </li>
                 <li>
                     <i class="fa-solid fa-magnifying-glass icons"></i>

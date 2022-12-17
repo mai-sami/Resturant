@@ -28,7 +28,7 @@ var DataCard=[
 ]
 function Index() {
     return (
-        <div className='Menu'>
+        <div className='Menu' id='Menu'>
             <ContainerSection> 
             <SpecialText title={"Straight From Kitchen"} subTitle={"Our Menu"} />
             <div className='card__grid'>
