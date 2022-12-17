@@ -1,0 +1,33 @@
+
+ 
+.home {
+    background-image: url('../assets/background.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    display: block;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.introducation {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    height: 130vh;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    background: linear-gradient(to bottom, transparent, #181717),
+        url("../assets/Rectangle\ 1.png");
+
+
+}

@@ -1,0 +1,15 @@
+.read__more {
+    width: 215px;
+    padding: 0.8rem;
+    border: 2px solid #FFFCCC;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    background: transparent
+}
+.read__more:hover{
+   background-color: #A08040;
+}

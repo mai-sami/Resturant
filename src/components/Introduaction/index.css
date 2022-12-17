@@ -1,0 +1,39 @@
+ .intro {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     bottom: 2.5%;
+     left: 0;
+     right: 0;
+
+ }
+
+ .title {
+
+     font-weight: 600;
+     align-items: center;
+     text-align: center;
+     font-size: 42px;
+ }
+
+ .sub__title {
+     color: #FFFFFF;
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+   padding: 1rem;
+   margin-bottom: 1.5rem;
+
+ }
+
+ @media (max-width: 900px) {
+    .title {
+       font-size: 30px;
+     }
+    .sub__title{
+        font-size: 17px;
+    }
+}

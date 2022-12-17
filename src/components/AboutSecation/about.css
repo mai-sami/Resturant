@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@100;400&display=swap');
+
+
+
+.about {
+     display: flex;
+    justify-content: space-between;
+    margin-bottom: 8rem;
+    margin-top: 3rem;
+    padding-top: 4rem;
+
+}
+
+.left__secation {
+    width: 50%;
+    display: flex;
+    align-items: right;
+    justify-content: space-around;;
+}
+
+.right__secation {
+     display: flex;
+    flex-direction: column;
+    width: 50%;
+ 
+}
+
+.about__title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    color: #FFCE6D;
+}
+
+.sub__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.8;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+
+.text__ {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFC;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+.read__seaction{
+    margin-top: 5rem;
+}
+
+.text__Goes {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFC;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+.right__secationGoes{
+   
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+ }
+.styleSecationGoes{
+         width: 50%;
+         height: 90%;
+        display: flex;
+        align-items: right;
+        justify-content: end;;
+    
+    
+}
+@media (max-width: 900px) {
+    
+  .left__secation,.styleSecationGoes{
+    display: none;
+  }
+    .right__secation,.right__secationGoes{
+        width: 90%;
+    }
+
+}

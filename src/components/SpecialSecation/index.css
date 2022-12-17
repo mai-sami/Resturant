@@ -1,0 +1,69 @@
+.special {
+    background: rgba(16, 20, 24, 0.57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    text-align: center;
+    padding: 2rem;
+}
+.card__content {
+    display: grid;
+ grid-template-columns: repeat(3, 1fr);
+
+    margin: 2rem;
+}
+.card__specail {
+    border: 2px dotted #FFCE6D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+    background: #a080403a;
+    width: 384px;
+    height: 455px;
+    padding: 4rem;
+
+}
+.image__card {
+    width: 80px;
+    height: 80px;
+}
+.title_card {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+.name__card {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+}
+
+
+@media (min-width: 900px) and (max-width: 1300px) {
+    
+    .card__content{
+         grid-template-columns: repeat(2, 1fr) !important;
+    }
+   
+  
+  }
+@media (max-width: 900px) {
+    
+    .card__content{
+         grid-template-columns: repeat(1, 1fr) !important;
+    }
+   
+  
+  }

@@ -1,0 +1,45 @@
+.join {
+
+    margin: 3rem;
+}
+
+.join-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-us img {
+    width: 30%;
+}
+
+.join__moddel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.join__name {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFC;
+}
+
+.join__price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 2.5;
+    color: #FFCE6D;
+}

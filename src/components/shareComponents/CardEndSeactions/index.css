@@ -1,0 +1,87 @@
+.read__card {
+  
+   margin: 3rem;
+     letter-spacing: 0.13em;
+    text-transform: capitalize;
+display: flex;
+flex-direction: column;
+    
+     
+}
+
+.card__blogReverse{
+   
+   width: 410px;
+
+   background: rgba(16, 20, 24, 0.7);
+   
+display: flex;
+flex-direction: column-reverse;
+}
+.read__card_text{
+    color: #FFFFFC;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 155.3%;
+ 
+}
+.hr__cards{
+    border: 1px solid #FFCE6D;
+    width: 92px;
+
+}
+.cards__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 117.3%;
+  line-height: 2;
+
+    text-transform: capitalize;
+    color: #FFFFFC;
+
+}
+
+.cards__name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155.3%;
+   
+
+    text-transform: capitalize;
+
+    color: #FFFFFC;
+
+}
+.all__text{
+    padding: 2rem ;
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+@media (min-width: 600px) and (max-width: 1400px) {
+
+    .all__card__blog {
+        grid-template-columns: repeat(2, 1fr) !important;
+     }
+ 
+ 
+ }
+
+ @media (max-width: 600px) {
+
+    .all__card__blog {
+        grid-template-columns: repeat(1, 1fr) !important;
+     }
+ .card__blog,.card__blogReverse{
+    margin: 2rem;
+ }
+ 
+ }

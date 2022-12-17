@@ -1,0 +1,20 @@
+.containers {
+    width: 65%;
+    margin: auto;
+}
+
+.ContainerSection {
+    width: 77%;
+    margin: auto;
+}
+
+.content {
+    width: 93%;
+    margin: auto;
+    background: rgba(16, 20, 24, 0.7);
+ }
+
+ .contenterss{
+    width: 93%;
+    margin: auto;
+  }

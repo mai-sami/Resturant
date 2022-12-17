@@ -1,0 +1,74 @@
+.reviwes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+.contentReviw{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5rem;
+    margin: 3rem 4rem 8rem 4rem;
+ 
+}
+.rev{
+    display: flex;
+    align-items: center;
+ }
+.review__card{
+    display: flex;
+    flex-direction: column;
+     width: 732px;
+  padding:3rem 5rem 5rem;
+background: rgba(16, 20, 24, 0.7);
+
+}
+.revText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+.nameReviewer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 155.3%;
+     
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    
+    color: #FFFFFC;
+}
+
+.reviewP{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+ letter-spacing: 0.13em;
+text-transform: capitalize;
+margin-top: 3rem;
+color: #FFFFFC;
+text-align: left;
+}
+
+@media (max-width: 800px) {
+
+    .contentReviw {
+        grid-template-columns: repeat(1, 1fr) !important;
+     }
+ .review__card{
+    margin: 1rem;
+    justify-content: center;
+    width: 100%;
+   
+
+ }
+ 
+ }

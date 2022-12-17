@@ -1,0 +1,17 @@
+.blogs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.all__card__blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5rem;
+    margin: 3rem;
+}
+.card__blog{
+    width: 410px;
+
+background: rgba(16, 20, 24, 0.7);
+}
