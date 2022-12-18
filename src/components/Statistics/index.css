@@ -9,6 +9,14 @@
     align-items: center;
     justify-content: space-evenly;
 }
+@media (max-width: 1400px) {
+
+    .content__staticesSecand {
+flex-wrap: wrap; 
+     }
+
+ 
+ }
 
 .statistics {
     display: flex;

@@ -197,11 +197,13 @@
 
 @media (max-width: 900px) {
 
-    .footer,.subsecribe{
+    .footer,
+    .subsecribe {
         flex-direction: column;
     }
-.subsecribe__midel{
-    margin: 2rem;
-}
+
+    .subsecribe__midel {
+        margin: 2rem;
+    }
 
 }

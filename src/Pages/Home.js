@@ -23,17 +23,17 @@ function Home() {
                     <Introduaction />
                 </div>
             </Content>
-            <About  />
+            <About />
 
             <SpecialSecation />
             <Menu />
             <JoinUs />
             <Goose />
             <Statistics />
-               <Reviews />
-          <Blogs />
-             <Footer />
-           <Subsecribe/> 
+            <Reviews />
+            <Blogs />
+            <Footer />
+            <Subsecribe />
             <Copyright />
         </div>
     )

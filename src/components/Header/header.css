@@ -109,4 +109,12 @@ hr,
 }
 
 
+@media (max-width: 500px) {
+    .logo__header {
+       display: none;
+    }
+    .header__ul{
+        height: 76px;
+    }
  
+}
